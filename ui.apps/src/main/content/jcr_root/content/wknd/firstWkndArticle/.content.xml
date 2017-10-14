@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-10-10T16:45:45.269-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-title"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="First WKND Article"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-10-08T15:06:10.043-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-10-08T15:06:38.768-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2017-10-10T09:00:07.508-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-10T09:00:21.642-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Hello World"
+                    sling:resourceType="wknd/components/content/title"/>
+                <text
+                    jcr:created="{Date}2017-10-10T08:59:18.940-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-10T16:45:45.268-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>This is a text component&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <contentfragment
+                    jcr:created="{Date}2017-10-10T15:44:38.110-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-10T15:54:11.359-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/contentfragment"
+                    element="main"
+                    fileReference="/content/dam/wknd-content-fragment"
+                    text="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;            Cervini’s Auto Designs already has a popular and stylish body kit and accessory parts for its 2015-17 Mustang but they aren’t stopping there as the company is among the first to show their makeover parts designs for the new 2018 Mustang.&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;            Cervini’s just released a preview rendering of their outfitted 2018 Mustang. Although details have not yet been released, the exterior modifications seem to build upon the success of their 2015-17 kit which includes Cervini’s ram air hood, air duct, upper and lower grilles, chin spoiler, quarter window louvers, side scoops pedestal spoiler and side exhaust.&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;"
+                    variation="master">
+                    <par3
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                </contentfragment>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <secondPage/>
+</jcr:root>
